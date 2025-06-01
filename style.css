@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Slab&display=swap');
 
 body {
-  background-color: #0a0a12;
-  color: #39ff14;
+  background-color: #1a1a2e; /* deep indigo */
+  color: #f7f1e3; /* soft cream */
   font-family: 'Roboto Slab', serif;
   margin: 0; 
   padding: 20px;
@@ -10,23 +10,23 @@ body {
 }
 
 header, footer {
-  background: linear-gradient(90deg, #21022f, #3a0ca3);
-  color: #ff6ff8;
+  background: linear-gradient(90deg, #6a0572, #ab83a1);
+  color: #f72585; /* pastel pink */
   padding: 20px;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
-  text-shadow: 0 0 15px #ff6ff8, 0 0 20px #ff6ff8;
+  text-shadow: 0 0 15px #f72585;
   border-radius: 0 0 30px 30px;
 }
 
 header p {
   font-style: italic;
-  color: #c07eff;
+  color: #d299dc; /* soft lilac */
   margin: 0 0 10px;
 }
 
 nav a {
-  color: #a64ca6;
+  color: #845ec2; /* pastel purple */
   margin: 0 15px;
   text-decoration: none;
   font-weight: 700;
@@ -34,24 +34,24 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6ff8;
-  text-shadow: 0 0 10px #ff6ff8;
+  color: #d65db1; /* pink highlight */
+  text-shadow: 0 0 12px #d65db1;
 }
 
 .section-block {
-  background: rgba(20, 20, 35, 0.7);
-  border: 2px solid #8d3dae;
+  background: rgba(58, 24, 58, 0.8); /* transparent purple */
+  border: 2px solid #d65db1;
   border-radius: 15px;
   margin: 30px auto;
   max-width: 900px;
   padding: 20px 40px;
-  box-shadow: 0 0 20px #8d3dae;
+  box-shadow: 0 0 18px #d65db1;
 }
 
 h1, h2, h3 {
   font-family: 'Orbitron', sans-serif;
-  color: #ff00ff;
-  text-shadow: 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+  color: #720026; /* muted magenta */
+  text-shadow: 0 0 8px #bd1550; /* soft red glow */
   margin-top: 0;
 }
 
@@ -62,7 +62,7 @@ ul {
 
 ul li {
   padding: 8px 0;
-  border-bottom: 1px solid #460046;
+  border-bottom: 1px solid #5a005a;
 }
 
 ul li:last-child {
@@ -76,12 +76,12 @@ ul li:last-child {
   padding: 15px 0;
 }
 
-.menu img {
+.menu img, .gallery img {
   width: 120px;
   height: 90px;
-  border: 3px solid #ff00ff;
+  border: 3px solid #f72585; /* pink border on images */
   border-radius: 15px;
-  filter: drop-shadow(0 0 8px #ff00ff);
+  filter: drop-shadow(0 0 8px #f72585);
   object-fit: cover;
 }
 
@@ -89,21 +89,18 @@ ul li:last-child {
   width: 180px;
   height: 130px;
   margin-right: 15px;
-  border: 3px solid #ff00ff;
-  border-radius: 15px;
-  filter: drop-shadow(0 0 12px #ff00ff);
   object-fit: cover;
 }
 
 a {
-  color: #ff6ff8;
+  color: #d65db1;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  text-shadow: 0 0 10px #ff6ff8;
+  text-shadow: 0 0 10px #d65db1;
 }
 
 footer p {
